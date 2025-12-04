@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: marionette9969/guestbook-ui:21
+        - image: marionette9969/guestbook-ui:22
           name: guestbook-ui
           ports:
             - containerPort: 80
